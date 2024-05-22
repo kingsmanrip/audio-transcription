@@ -69,7 +69,7 @@ def get_next_filename(base, ext):
 
 # Main function
 def main():
-    print("Press space to start recording.")
+    print("Press space to start recording your voice.")
     while True:
         keyboard.wait('space')
         audio_filename = get_next_filename("audio", "wav")
